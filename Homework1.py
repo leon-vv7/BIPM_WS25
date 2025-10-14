@@ -11,7 +11,7 @@ def simulateOneWeek(numEmployees):
     """Simulates one week and returns a list of 5 daily attendance counts."""
     weeklyAttendence = [0, 0, 0, 0, 0] #initialize for 5 days
     dayIndices = range(5)
-    for _ in range(numEmployees): #loop through each employee
+    for i in range(numEmployees): #loop through each employee
         officeDays = random.sample(dayIndices, 2) #randomly select 2 days for each employee
         for day in officeDays:
             weeklyAttendence[day] += 1 #increment the count for that day
@@ -40,6 +40,8 @@ plt.ylabel("Probability")
 plt.title(f"Distribution of daily office attendance (from {numSimulations} weeks)")
 plt.grid(axis='y', alpha=0.75)
 plt.show()
+
+print(simulateOneWeek(numEmployees))
 
 #overlap_probability = twoEmpolyeeOverlap(numSimulations)
 #print('Simulated probability of a two-day overlap is:', overlap_probability)
