@@ -41,7 +41,5 @@ plt.title(f"Distribution of daily office attendance (from {numSimulations} weeks
 plt.grid(axis='y', alpha=0.75)
 plt.show()
 
-print(simulateOneWeek(numEmployees))
-
 #overlap_probability = twoEmpolyeeOverlap(numSimulations)
 #print('Simulated probability of a two-day overlap is:', overlap_probability)
