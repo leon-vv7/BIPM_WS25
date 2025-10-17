@@ -72,13 +72,16 @@
         /* Hobbies Section Styling */
         .hobbies-gallery {
             display: flex;
-            justify-content: space-around;
             flex-wrap: wrap;
             gap: 18px;
             margin-top: 16px;
+            justify-content: center;
         }
+        /* Force two items per row by making each item ~50% minus gap */
         .hobby-item {
-            flex-basis: 220px;
+            flex: 0 0 calc(50% - 18px);
+            max-width: calc(50% - 18px);
+            box-sizing: border-box;
             text-align: center;
             background: linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,0.02));
             padding: 10px;
@@ -122,11 +125,17 @@
         }
 
         /* small responsive tweaks */
+        @media (max-width:920px){
+            /* maintain two columns on medium screens */
+            .hobby-item { flex: 0 0 calc(50% - 18px); max-width: calc(50% - 18px); }
+        }
         @media (max-width:720px){
-            .hobby-item { flex-basis: 46%; }
+            /* smaller devices keep two columns */
+            .hobby-item { flex: 0 0 calc(50% - 14px); max-width: calc(50% - 14px); }
         }
         @media (max-width:420px){
-            .hobby-item { flex-basis: 100%; }
+            /* single column on very small screens */
+            .hobby-item { flex: 0 0 100%; max-width: 100%; }
         }
 
         /* accent inline */
