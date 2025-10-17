@@ -5,60 +5,136 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Name - Introduction</title>
     <style>
-        /* Basic Styling */
-        body {
+        /* Dark theme + colorful accents */
+        :root{
+            --bg-1: #071226;
+            --bg-2: #0b1220;
+            --panel: rgba(15,22,34,0.88);
+            --muted: #9aa8ba;
+            --text: #e6eef8;
+            --accent-1: #7c3aed; /* purple */
+            --accent-2: #06b6d4; /* teal */
+            --accent-3: #ffb86b; /* warm */
+            --glass-border: rgba(255,255,255,0.04);
+        }
+
+        html,body {
+            height:100%;
+            margin:0;
+            background: linear-gradient(135deg,var(--bg-1),var(--bg-2));
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 20px;
-            background-color: #f4f4f4;
-            color: #333;
+            color:var(--text);
+            -webkit-font-smoothing:antialiased;
+            -moz-osx-font-smoothing:grayscale;
         }
-        /* Main container for centering content */
+
         .container {
-            max-width: 900px;
-            margin: auto;
-            background: #fff;
-            padding: 25px;
-            border-radius: 8px;
-            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+            max-width: 980px;
+            margin: 32px auto;
+            background: var(--panel);
+            padding: 28px;
+            border-radius: 12px;
+            border: 1px solid var(--glass-border);
+            box-shadow: 0 10px 40px rgba(2,6,23,0.7), inset 0 1px 0 rgba(255,255,255,0.02);
         }
-        /* Headings */
-        h1, h2 {
+
+        h1 {
+            margin: 0 0 6px 0;
+            font-size: 2.1rem;
             text-align: center;
-            color: #2c3e50;
+            background: linear-gradient(90deg, var(--accent-1), var(--accent-2));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            letter-spacing: 0.5px;
         }
+
+        h2 {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 1.25rem;
+            color: var(--accent-3);
+            text-shadow: 0 2px 8px rgba(0,0,0,0.6);
+        }
+
         p {
-            text-align: justify;
+            color: var(--muted);
+            line-height: 1.6;
+            margin-bottom: 12px;
         }
+
+        hr {
+            border: none;
+            height: 1px;
+            background: linear-gradient(90deg, rgba(255,255,255,0.02), rgba(255,255,255,0.04));
+            margin: 18px 0;
+        }
+
         /* Hobbies Section Styling */
         .hobbies-gallery {
-            display: flex; /* This arranges the hobbies side-by-side */
-            justify-content: space-around; /* This spaces them out evenly */
-            flex-wrap: wrap; /* Allows items to wrap to the next line on small screens */
-            gap: 20px; /* Adds space between items */
-            margin-top: 20px;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 18px;
+            margin-top: 16px;
         }
         .hobby-item {
-            flex-basis: 200px; /* Sets a base width for each hobby item */
+            flex-basis: 220px;
             text-align: center;
+            background: linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,0.02));
+            padding: 10px;
+            border-radius: 10px;
+            border: 1px solid rgba(255,255,255,0.03);
         }
         .hobby-item img {
             width: 100%;
-            height: 150px;
-            object-fit: cover; /* Ensures images look good without distortion */
+            height: 140px;
+            object-fit: cover;
             border-radius: 8px;
-            border: 2px solid #ddd;
+            border: 2px solid rgba(124,58,237,0.15);
+            box-shadow: 0 8px 18px rgba(3,6,20,0.6);
         }
         .hobby-item p {
-            font-size: 0.9em;
-            text-align: center;
-            margin-top: 8px;
+            font-size: 0.92em;
+            color: var(--muted);
+            margin-top: 10px;
         }
+
+        /* image centering (if you put a larger hero image above map) */
+        .hero-image {
+            text-align: center;
+            margin-top: 12px;
+        }
+        .hero-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            border: 1px solid rgba(255,255,255,0.04);
+            box-shadow: 0 10px 30px rgba(2,6,23,0.7);
+        }
+
         /* iFrame Styling */
         iframe {
-            border-radius: 8px;
-            margin-top: 20px;
+            border-radius: 10px;
+            margin-top: 18px;
+            border: 1px solid rgba(255,255,255,0.03);
+            box-shadow: 0 12px 30px rgba(2,6,23,0.6);
+            background: linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,0.02));
+        }
+
+        /* small responsive tweaks */
+        @media (max-width:720px){
+            .hobby-item { flex-basis: 46%; }
+        }
+        @media (max-width:420px){
+            .hobby-item { flex-basis: 100%; }
+        }
+
+        /* accent inline */
+        .accent {
+            background: linear-gradient(90deg,var(--accent-1),var(--accent-2));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight:600;
         }
     </style>
 </head>
@@ -68,7 +144,7 @@
         
         <h1>Robert Leon Greene</h1>
         <p>
-            Welcome to my page! I'm a student in Business Intelligence and Process Management at HWR Berlin. 
+            Welcome to my page! I'm a student in <span class="accent">Business Intelligence and Process Management</span> at HWR Berlin. 
             While my academic journey has been centered in this amazing city, my passions extend into music, sports, and technology. 
             Feel free to look around to learn a bit more about me!
         </p>
@@ -106,7 +182,8 @@
             My entire academic path for the Business Intelligence and Process Management program has been at the HWR Berlin. 
             The map below pinpoints the location.
         </p>
-        <iframe src="academic_journey_map.html" width="100%" height="400" style="border:none;"></iframe>
+
+        <iframe src="academic_journey_map.html" width="100%" height="480" style="border:none;"></iframe>
 
     </div>
 
