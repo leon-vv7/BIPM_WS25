@@ -1,0 +1,501 @@
+customer_id,age,gender,insurance_status,policy_type,years_with_company,dentist_visits_per_year,annual_checkups,occupational_category,chronic_condition,smoker_status,alcohol_consumption_weekly
+10476,49.0,Male,Pending,family,27.0,0.0,1, office worker,Heart Disease,Former,Low
+10383,53.0,Male,Pending,Basic,21.0,2,1,Office Worker,Heart Disease,Yes,None
+10454,82.0,Male,Active,Family,100.0,0.0,1,Manager,Heart Disease,Yes,Moderate
+10053,73.0,Male,Active,Gold,7.0,0,1,Engineer,Arthritis,Yes,None
+10446,72.0,Female,Pending,Basic,-2.0,2.0,10,Engineer,Heart Disease,No,Moderate
+10373,61.0,Male,Pending,Basic,29.0,2,0,Software Engineer,Asthma,Yes,Moderate
+10301,34.0,Male,Lapsed,Family,27.0,3,0,Manual Labor,Heart Disease,Former,None
+10366,35.0,Male,Active,Basic,38.0,3,0,Manager,None,No,None
+10096,25.0,Male,Pending,Basic,32.0,2,0,Scientist,Diabetes,No,Moderate
+10211,42.0,Male,Active,Gold,20.0,1,1,Scientist,Hypertension,No,High
+10228,35.0,Male,Pending,Basic,31.0,0,1,Manual Labor,Arthritis,Former,High
+10176,40.0,Female,Active,Premium,9.0,2,0,Retired,Asthma,Former,Moderate
+10117,68.0,Male,Pending,Gold,11.0,0,1,Sales Representative,Asthma,No,Low
+10011,21.0,Female,Active,Family,31.0,1,0,Manual Labor,Asthma,Yes,High
+10136,19.0,Female,Pending,Basic,24.0,3,0,Student,Asthma,No,None
+10310,33.0,Female,Pending,Family,33.0,1,1,Manual Labor,None,No,High
+10388,46.0,Female,Active,Premium,2.0,1,1,Sales Representative,Hypertension,Yes,None
+10436,59.0,Male, lapsed,Gold,26.0,3.0,1,Software Engineer,None,No,High
+10375,50.0,Male,Lapsed,Family,26.0,2,0,Software Engineer,Arthritis,No,None
+10369,79.0,Male,Pending,Gold,26.0,1,0,Scientist,Diabetes,No,None
+10070,58.0,Female,Active,Gold,0.0,2,0,Sales Representative,Asthma,Former,None
+10003,34.0,Male,Lapsed,Family,16.0,1,0,Nurse,Diabetes,No,None
+10111,43.0,Female,Active,Basic,34.0,1,0,Scientist,Heart Disease,Former,Moderate
+10072,79.0,Male,Pending,Family,32.0,3,1,Manager,Diabetes,Former,Moderate
+10422,27.0,Female,Active,Gold,5.0,2.0,0,Nurse,Heart Disase, YES,None
+10067,68.0,Male,Pending,Gold,35.0,3,0,Nurse,Heart Disease,No,None
+10266,23.0,Female,Pending,Basic,19.0,2,1,Doctor,Heart Disease,Yes,Moderate
+10002,36.0,Male,Lapsed,Premium,25.0,3,0,Manual Labor,Asthma,Former,High
+10480,21.0,female,Pending,Family,10.0,3.0,1,Accountant,Asthma,Former,High
+10016,38.0,Male,Lapsed,Basic,24.0,2,0,Manager,Heart Disease,No,High
+10089,56.0,Male,Pending,Gold,10.0,2,0,Scientist,Asthma,Former,High
+10047,64.0,Male,Lapsed,Gold,27.0,3,0,Engineer,Heart Disease,Yes,Low
+10420,37.0,Female,Pending,,11.0,2.0,0,Teacher,Asthma,Yes,None
+10087,36.0,Male,Pending,Gold,22.0,3,0,Nurse,Asthma,Former,None
+10355,55.0,Female,Active,Basic,20.0,0,1,Nurse,None,No,High
+10214,34.0,Male,Lapsed,Gold,34.0,0,0,Nurse,None,No,None
+10151,29.0,Female,Lapsed,Gold,36.0,1,0,Engineer,None,Yes,High
+10075,30.0,Male,Pending,Basic,38.0,2,0,Manager,Hypertension,No,Low
+10494,77.0,male,Active,Basic,-2.0,3.0,0,Nurse,Diabetes,Yes,Moderate
+10292,60.0,Female,Pending,Premium,3.0,2,1,Teacher,Diabetes,Former,High
+10203,37.0,Male,Pending,Family,32.0,3,0,Office Worker,Heart Disease,Former,High
+10347,71.0,Male,Lapsed,Premium,28.0,0,1,Manager,None,No,Moderate
+10227,23.0,Female,Lapsed,Premium,6.0,0,1,Lawyer,Diabetes,Yes,Low
+10426,52.0,Male,Pending,Gold,29.0,0.0,One,Lawyer,Arthritis,No,High
+10130,66.0,Male,Active,Family,28.0,3,0,Engineer,Heart Disease,No,Moderate
+10421,43.0,Male, lapsed,premium,4.0,0.0,1,Engineer,Asthma,Former,low
+10076,48.0,Female,Active,Premium,2.0,0,1,Scientist,Arthritis,Yes,Moderate
+10322,34.0,Female,Active,Basic,32.0,0,0,Teacher,Heart Disease,No,High
+10441,-10.0,Female,Pending,Basic,39.0,1.0,1,Manual Labor,NA,No,None
+10348,57.0,Male,Active,Family,25.0,3,1,Teacher,Heart Disease,Former,Moderate
+10126,37.0,Male,Lapsed,Premium,30.0,3,1,Scientist,Asthma,No,High
+10083,68.0,Male,Active,Family,28.0,0,1,Software Engineer,Asthma,Yes,Moderate
+10429,82.0,Female,Pending,Gold,30.0,3.0,1,Scientist,Hypertension,,High
+10255,83.0,Male,Active,Premium,12.0,3,0,Manager,Asthma,No,High
+10084,42.0,Male,Lapsed,Gold,4.0,1,1,Retired,Asthma,No,High
+10066,80.0,Male,Pending,Family,30.0,0,1,Teacher,Hypertension,Yes,High
+10370,65.0,Female,Pending,Basic,19.0,2,1,Doctor,None,Former,Moderate
+10356,34.0,Male,Pending,Family,13.0,1,1,Teacher,Asthma,No,Low
+10448,5.0,Male,Pending,Premium,12.0,0.0,1,Office Worker,Heart Disease,No,None
+10232,20.0,Female,Pending,Basic,18.0,2,0,Manager,Arthritis,Yes,High
+10251,27.0,Female,Lapsed,Gold,36.0,1,1,Office Worker,Hypertension,Yes,High
+10040,42.0,Female,Pending,Premium,10.0,2,1,Scientist,Asthma,No,High
+10144,70.0,Female,Active,Basic,31.0,3,1,Office Worker,Arthritis,No,Moderate
+10357,25.0,Male,Active,Premium,8.0,1,0,Sales Representative,Arthritis,Yes,None
+10417,46.0,Male,Active,Family,29.0,3.0,1,Office Worker,Asthma,Former,None
+10123,50.0,Female,Active,Basic,35.0,1,0,Software Engineer,Arthritis,Former,Low
+10004,41.0,Female,Lapsed,Gold,14.0,3,0,Software Engineer,None,No,Low
+10319,43.0,Female,Pending,Premium,13.0,3,0,Software Engineer,Hypertension,No,High
+10019,42.0,Male,Pending,Basic,36.0,0,0,Accountant,Hypertension,Yes,None
+10187,36.0,Female,Lapsed,Basic,14.0,1,1,Engineer,Diabetes,Former,Low
+10314,64.0,Male,Pending,Family,16.0,3,0,Doctor,Diabetes,Yes,Low
+10088,54.0,Female,Active,Premium,40.0,0,1,Teacher,Asthma,Former,Low
+10321,82.0,Female,Pending,Gold,21.0,1,0,Lawyer,Diabetes,No,Low
+10247,68.0,Female,Active,Basic,35.0,2,0,Doctor,Arthritis,Yes,Moderate
+10026,50.0,Male,Pending,Family,25.0,0,0,Sales Representative,Hypertension,Yes,None
+10272,24.0,Female,Lapsed,Gold,9.0,1,0,Manual Labor,Diabetes,No,None
+10071,54.0,Female,Pending,Family,4.0,2,1,Office Worker,Diabetes,Former,High
+10104,69.0,Female,Lapsed,Basic,27.0,3,1,Manual Labor,Arthritis,No,Low
+10399,55.0,Male,Active,Family,7.0,3,1,Doctor,Arthritis,No,Moderate
+10402,79.0,Male,Lapsed,Basic ,5.0,3.0,1,retired,None,No,High
+10223,58.0,Male,Active,Family,15.0,3,1,Doctor,Diabetes,Former,None
+10332,72.0,Female,Lapsed,Premium,15.0,3,0,Retired,Heart Disease,Yes,None
+10202,78.0,Female,Pending,Gold,2.0,2,0,Manager,Arthritis,Yes,High
+10260,81.0,Male,Pending,Premium,17.0,1,0,Teacher,Asthma,Former,High
+10336,78.0,Female,Active,Basic,14.0,2,0,Engineer,Heart Disease,No,Moderate
+10479,31.0,Female,Pending,Family,40.0,1.0,0,Sales Representative,None,missing,Low
+10014,65.0,Male,Pending,Basic,31.0,3,1,Lawyer,Hypertension,Former,Moderate
+10398,35.0,Male,Lapsed,Family,15.0,3,1,Student,Heart Disease,No,Moderate
+10411,61.0,,Pending,Gold,35.0,2.0,1,Nurse,Hypertension,No,None
+10406,81.0,Female,Pending,Gold,100.0,0.0,1,Nurse,Heart Disase,Yes,None
+10105,18.0,Male,Active,Premium,14.0,1,1,Accountant,Heart Disease,Yes,None
+10283,54.0,Male,Active,Premium,1.0,0,0,Retired,Diabetes,Former,Low
+10121,26.0,Male,Active,Family,30.0,0,1,Teacher,Heart Disease,No,Low
+10320,53.0,Male,Lapsed,Basic,34.0,2,0,Sales Representative,Arthritis,Former,None
+10444,68.0,Female,Active,Premium,0.0,1.0,1,Manual Labor,Heart Disease,Yes,High 
+10371,58.0,Male,Pending,Family,39.0,1,1,Scientist,Asthma,No,Low
+10195,40.0,Female,Pending,Premium,26.0,2,1,Accountant,Diabetes,Yes,None
+10101,40.0,Female,Active,Basic,21.0,3,0,Engineer,Arthritis,Yes,Moderate
+10031,78.0,Female,Active,Gold,30.0,3,1,Accountant,Arthritis,Former,Moderate
+10139,78.0,Female,Lapsed,Premium,27.0,0,0,Retired,Heart Disease,Yes,High
+10297,23.0,Male,Active,Gold,33.0,0,0,Retired,Heart Disease,Former,None
+10194,80.0,Male,Active,Basic,3.0,3,0,Manual Labor,Arthritis,Yes,None
+10168,24.0,Male,Active,Basic,21.0,0,1,Scientist,Diabetes,Former,None
+10210,32.0,Male,Active,Gold,32.0,3,0,Office Worker,None,Yes,None
+10218,54.0,Male,Lapsed,Premium,29.0,2,1,Teacher,Arthritis,Yes,High
+10471,51.0,female,Pending,Basic,-2.0,0.0,0,Nurse,Hypertension,No,Moderate
+10430,57.0,Female,Pending,family,9.0,2.0,0,Doctor,None,Yes,NA
+10148,22.0,Male,Active,Gold,14.0,3,0,Manual Labor,None,No,Moderate
+10189,53.0,Male,Active,Premium,38.0,1,1,Engineer,Asthma,Yes,Moderate
+10115,74.0,Male,Lapsed,Basic,18.0,0,0,Retired,Arthritis,No,High
+10106,68.0,Female,Pending,Family,24.0,2,1,Doctor,None,Former,High
+10390,42.0,Male,Active,Gold,2.0,1,0,Doctor,Diabetes,Yes,Low
+10456,5.0,Female,Lapsed,Premium,17.0,3.0,Zero,Lawyer,None,Yes,Low
+10219,78.0,Female,Pending,Basic,14.0,2,1,Scientist,Diabetes,Yes,None
+10092,43.0,Male,Active,Premium,10.0,3,1,Accountant,Diabetes,No,High
+10305,18.0,Male,Lapsed,Gold,24.0,3,1,Student,Arthritis,Former,Moderate
+10235,28.0,Female,Lapsed,Family,13.0,3,0,Doctor,Asthma,Former,Low
+10022,59.0,Male,Active,Family,29.0,3,0,Manager,Hypertension,Former,None
+10152,65.0,Female,Active,Basic,32.0,3,0,Software Engineer,Diabetes,Former,Low
+10316,29.0,Female,Lapsed,Basic,5.0,2,0,Student,Diabetes,No,None
+10221,33.0,Male,Pending,Family,40.0,2,1,Sales Representative,Diabetes,Former,None
+10182,39.0,Female,Pending,Gold,22.0,1,1,Teacher,None,Yes,Moderate
+10042,39.0,Female,Pending,Family,26.0,3,1,Office Worker,Arthritis,No,High
+10327,36.0,Male,Pending,Gold,20.0,1,0,Manager,None,Former,None
+10472,5.0,Male,Pending,Gold,28.0,3.0,0,Doctor,Hypertension,Yes,High
+10081,61.0,Female,Active,Premium,3.0,2,0,Manager,Arthritis,Yes,Moderate
+10158,49.0,Male,Active,Basic,37.0,2,1,Accountant,Arthritis,No,High
+10122,24.0,Male,Pending,Gold,6.0,0,0,Sales Representative,Asthma,Yes,Moderate
+10215,55.0,Female,Lapsed,Premium,33.0,1,1,Accountant,Arthritis,Yes,Low
+10312,56.0,Female,Active,Basic,5.0,2,0,Manager,Hypertension,Yes,High
+10103,77.0,Male,Pending,Basic,18.0,1,0,Doctor,None,No,Low
+10478,150.0,Female,Active,Gold,9.0,1.0,0,Office Worker,None,No,None
+10095,75.0,Female,Active,Premium,23.0,1,0,Scientist,None,Yes,High
+10188,36.0,Female,Active,Premium,36.0,1,1,Sales Representative,Asthma,No,None
+10405,150.0,Female,Active,Gold,25.0,3.0,1,Nurse,Arthritis,Former,Low
+10192,77.0,Female,Active,Basic,15.0,2,1,Manual Labor,Diabetes,No,Low
+10317,66.0,Female,Active,Premium,8.0,0,1,Engineer,Asthma,Former,Low
+10085,50.0,Female,Active,Premium,36.0,3,1,Manual Labor,Arthritis,No,Moderate
+10438,28.0,Female,NA,premium,17.0,2.0,0,Manual Labor,Arthritis,Yes,Low
+10145,65.0,Male,Active,Basic,5.0,1,1,Student,Hypertension,Yes,Low
+10167,57.0,Male,Pending,Gold,11.0,0,1,Student,Hypertension,No,Low
+10477,5.0,Male,Lapsed,Basic,6.0,1.0,0,Retired,Hypertension,Former,NA
+10407,41.0,F,Lapsed,Basic ,19.0,1.0,1,Accountant,Arthritis,No,Low
+10155,72.0,Female,Lapsed,Basic,14.0,2,1,Student,Diabetes,Former,High
+10055,55.0,Male,Lapsed,Premium,31.0,2,0,Office Worker,Arthritis,Former,High
+10488,65.0,Female, lapsed,Gold,34.0,1.0,1,Office Worker,Arthritis,No,High
+10238,24.0,Female,Active,Gold,9.0,0,0,Office Worker,None,Yes,None
+10074,47.0,Female,Lapsed,Family,30.0,2,0,Doctor,Heart Disease,Former,Low
+10027,27.0,Female,Active,Family,10.0,0,1,Lawyer,Asthma,No,Moderate
+10175,48.0,Female,Lapsed,Gold,32.0,3,1,Student,Heart Disease,Former,Low
+10499,49.0,Male,,Premium,40.0,2.0,1,Teacher,Hypertension,Yes,Low
+10162,47.0,Female,Active,Gold,34.0,0,1,Software Engineer,Asthma,No,Low
+10207,58.0,Male,Active,Basic,14.0,0,1,Lawyer,Diabetes,Yes,Low
+10224,34.0,Female,Active,Gold,4.0,0,1,Doctor,Hypertension,Former,Low
+10041,62.0,Female,Active,Basic,4.0,2,0,Manager,Asthma,Former,Moderate
+10381,42.0,Female,Active,Gold,34.0,3,0,Sales Representative,Arthritis,No,High
+10159,84.0,Female,Pending,Basic,32.0,1,0,Sales Representative,Hypertension,Yes,Low
+10034,77.0,Male,Lapsed,Premium,5.0,1,1,Accountant,Arthritis,Former,High
+10350,51.0,Male,Active,Basic,37.0,2,0,Software Engineer,Diabetes,Yes,None
+10493,28.0,Female,Active,Family,33.0,1.0,1,Engineer,Heart Disase,Former,High
+10062,76.0,Male,Pending,Basic,18.0,1,0,Nurse,Hypertension,No,High
+10485,-10.0,Male,Pending,Premium,3.0,2.0,1,Nurse,Arthritis, YES,Moderate
+10177,81.0,Female,Lapsed,Gold,28.0,0,1,Manual Labor,Hypertension,Yes,Low
+10015,33.0,Female,Active,Gold,6.0,0,0,Manager,None,No,Low
+10091,60.0,Male,Active,Premium,17.0,0,1,Accountant,Heart Disease,Former,Low
+10464,59.0,Missing,Active,premium,100.0,3.0,0,Office Worker,Diabetes,Yes,None
+10237,52.0,Male,Lapsed,Family,24.0,3,0,Manager,Diabetes,Former,High
+10334,47.0,Male,Pending,Premium,32.0,3,0,Software Engineer,None,Former,None
+10468,77.0,Female,Pending ,Family,25.0,0.0,1,Manual Labor,Heart Disease,Former,None
+10080,61.0,Male,Lapsed,Premium,3.0,0,1,Office Worker,Arthritis,Yes,Low
+10286,61.0,Male,Pending,Premium,39.0,2,1,Nurse,Arthritis,Former,Moderate
+10409,31.0,Female,Lapsed,Gold,17.0,missing,1,Office Worker,Heart Disease, YES,Low
+10165,44.0,Female,Pending,Family,4.0,0,0,Manager,Diabetes,No,Moderate
+10358,80.0,Female,Active,Basic,1.0,1,0,Manual Labor,Diabetes,Yes,High
+10277,45.0,Female,Active,Premium,38.0,1,1,Manual Labor,Hypertension,Former,Moderate
+10349,30.0,Female,Lapsed,Family,26.0,1,1,Student,Diabetes,Former,Moderate
+10045,47.0,Female,Active,Premium,35.0,1,1,Doctor,Hypertension,Yes,Moderate
+10353,18.0,Female,Pending,Family,14.0,2,0,Software Engineer,Hypertension,Yes,None
+10059,63.0,Male,Lapsed,Family,23.0,3,1,Sales Representative,None,Yes,None
+10418,27.0,Missing,Lapsed,Gold,19.0,0.0,1,Manual Labor,Diabtes,No,Low
+10335,44.0,Male,Lapsed,Premium,23.0,1,1,Nurse,None,Yes,Moderate
+10250,51.0,Female,Active,Premium,3.0,1,1,Student,Asthma,No,Moderate
+10275,21.0,Male,Lapsed,Premium,35.0,1,0,Student,None,Former,None
+10306,25.0,Female,Active,Gold,34.0,3,1,Nurse,Arthritis,Yes,Low
+10102,41.0,Female,Active,Premium,19.0,3,0,Doctor,Heart Disease,No,None
+10291,48.0,Female,Lapsed,Premium,34.0,3,1,Accountant,Diabetes,No,Low
+10387,66.0,Female,Active,Basic,16.0,0,0,Scientist,None,Yes,Moderate
+10120,39.0,Male,Pending,Basic,5.0,0,0,Manager,Arthritis,No,High
+10064,79.0,Male,Active,Basic,39.0,0,0,Doctor,Arthritis,Yes,High
+10339,79.0,Male,Pending,Basic,35.0,1,0,Software Engineer,Heart Disease,No,High
+10427,77.0,Female,Active,Basic,1.0,0.0,1,Retired,Asthma,,Moderate
+10097,60.0,Female,Lapsed,Family,36.0,2,1,Office Worker,Heart Disease,No,None
+10486,56.0,,Pending ,Family,6.0,1.0,0,Sales Representative,None,Former,low
+10495,21.0,Female,Active,Gold,27.0,2.0,1,Engineer,none,Yes,Moderate
+10274,46.0,Male,Pending,Gold,11.0,3,1,Accountant,None,No,High
+10378,37.0,Female,Pending,Family,31.0,0,0,Retired,Hypertension,No,High
+10289,26.0,Female,Pending,Family,23.0,3,1,Engineer,Hypertension,Yes,High
+10094,39.0,Male,Active,Gold,14.0,2,1,Retired,Diabetes,No,Moderate
+10090,41.0,Female,Active,Family,5.0,2,0,Retired,Asthma,No,Moderate
+10186,68.0,Male,Lapsed,Premium,28.0,0,0,Doctor,Hypertension,Former,Moderate
+10342,20.0,Female,Active,Premium,31.0,3,0,Office Worker,None,No,Moderate
+10345,77.0,Male,Pending,Family,18.0,2,1,Student,Diabetes,Yes,Moderate
+10296,35.0,Female,Lapsed,Family,13.0,1,1,Engineer,Asthma,No,Moderate
+10474,150.0,Female,Pending ,Gold,30.0,0,0,Manual Labor,Diabetes,No,None
+10039,46.0,Female,Active,Gold,0.0,3,0,Accountant,None,Former,High
+10443,,Male,Lapsed,Basic,3.0,One,0,Accountant,None,yes,None
+10396,61.0,Male,Pending,Premium,37.0,1,0,Nurse,Arthritis,Former,None
+10160,31.0,Female,Lapsed,Premium,18.0,3,0,Manager,Heart Disease,Yes,None
+10234,18.0,Male,Pending,Premium,1.0,3,1,Lawyer,Diabetes,No,High
+10333,84.0,Female,Pending,Family,28.0,2,0,Lawyer,None,Former,None
+10163,27.0,Female,Pending,Premium,27.0,1,0,Software Engineer,Asthma,Yes,Moderate
+10178,59.0,Female,Lapsed,Gold,19.0,1,1,Retired,Arthritis,No,Low
+10382,21.0,Female,Active,Premium,28.0,0,0,Scientist,Asthma,No,High
+10236,65.0,Female,Pending,Basic,39.0,1,1,Office Worker,Arthritis,Former,Moderate
+10361,36.0,Female,Pending,Gold,34.0,0,0,Manager,Hypertension,Yes,Low
+10107,60.0,Male,Pending,Family,13.0,1,0,Doctor,Arthritis,Former,High
+10452,5.0,Female,Lapsed,Premium,,2.0,0,Sales Representative,Asthma,Former,None
+10303,49.0,Female,Pending,Basic,27.0,2,1,Manual Labor,None,No,Moderate
+10295,81.0,Male,Active,Premium,22.0,3,1,Nurse,Heart Disease,Former,Moderate
+10364,83.0,Female,Active,Premium,11.0,3,0,Lawyer,Hypertension,Former,High
+10141,72.0,Male,Pending,Family,15.0,3,0,Manager,Arthritis,No,Low
+10170,51.0,Male,Pending,Family,24.0,3,0,Accountant,Diabetes,Former,Low
+10127,50.0,Male,Active,Premium,24.0,3,0,Retired,Asthma,No,Low
+10338,33.0,Male,Active,Family,30.0,2,0,Manager,Hypertension,No,Moderate
+10326,66.0,Male,Active,Premium,24.0,3,0,Office Worker,Asthma,Former,Low
+10341,66.0,Female,Lapsed,Premium,30.0,2,1,Lawyer,Heart Disease,Yes,Moderate
+10164,33.0,Female,Active,Gold,7.0,2,1,Sales Representative,Arthritis,No,High
+10213,64.0,Male,Pending,Basic,9.0,2,1,Doctor,Diabetes,No,Moderate
+10128,29.0,Female,Lapsed,Premium,9.0,3,0,Accountant,Hypertension,No,High
+10428,47.0,Female,Active,Gold,29.0,2.0,0,Nurse,Heart Disease,Former,NA
+10068,49.0,Female,Active,Basic,1.0,1,0,Lawyer,Heart Disease,Former,Low
+10174,24.0,Male,Lapsed,Family,6.0,2,1,Doctor,Heart Disease,Yes,Moderate
+10013,66.0,Female,Active,Gold,6.0,2,0,Scientist,Hypertension,Yes,Moderate
+10201,34.0,Female,Pending,Gold,29.0,0,1,Teacher,Hypertension,Former,High
+10021,22.0,Female,Active,Premium,16.0,0,1,Doctor,Heart Disease,Yes,None
+10447,36.0,Male,Active,Basic,-2.0,3.0,One,Doctor,Heart Disase,Yes,Moderate
+10263,78.0,Male,Lapsed,Premium,0.0,3,1,Engineer,Arthritis,Yes,High
+10204,32.0,Female,Pending,Basic,28.0,0,0,Scientist,Hypertension,No,High
+10415,150.0,M,Pending,Premium,5.0,2.0,0,Student,None,No ,Moderate
+10242,28.0,Female,Active,Family,23.0,1,0,Lawyer,Asthma,No,High
+10086,36.0,Male,Lapsed,Basic,22.0,1,0,Doctor,Diabetes,Former,Low
+10384,32.0,Female,Lapsed,Basic,23.0,1,1,Engineer,Heart Disease,Yes,None
+10240,79.0,Female,Active,Family,23.0,1,0,Doctor,Heart Disease,No,None
+10288,19.0,Male,Lapsed,Family,11.0,1,1,Manual Labor,Hypertension,Former,Low
+10185,46.0,Female,Lapsed,Gold,1.0,3,0,Office Worker,Arthritis,Former,Low
+10149,46.0,Male,Lapsed,Basic,14.0,1,0,Manager,None,Former,Low
+10110,39.0,Female,Lapsed,Basic,31.0,1,1,Manager,Hypertension,Yes,Low
+10311,26.0,Female,Active,Family,21.0,2,0,Doctor,Heart Disease,Yes,Moderate
+10061,48.0,Male,Lapsed,Premium,3.0,0,1,Accountant,None,No,Moderate
+10440,66.0,Female,Lapsed,Basic,-2.0,missing,1,Engineer,Diabtes,Yes,None
+10129,68.0,Female,Lapsed,Premium,12.0,2,1,Manager,Diabetes,Yes,Low
+10264,32.0,Male,Active,Family,37.0,0,1,Manager,Diabetes,No,Low
+10431,67.0,Male,Active,Premium,17.0,50,0,Manual Labor,Arthritis,Former,None
+10212,27.0,Female,Active,Family,32.0,1,1,Nurse,Asthma,No,High
+10131,28.0,Male,Pending,Basic,29.0,3,1,Sales Representative,Heart Disease,Yes,Moderate
+10344,34.0,Male,Active,Gold,5.0,1,1,Scientist,None,Yes,High
+10287,48.0,Female,Active,Premium,18.0,2,0,Office Worker,Heart Disease,Former,Moderate
+10078,75.0,Male,Pending,Premium,28.0,3,0,Nurse,None,No,None
+10125,62.0,Male,Active,Family,15.0,0,0,Engineer,Diabetes,Yes,None
+10258,33.0,Female,Pending,Gold,38.0,2,0,Manual Labor,Diabetes,Former,High
+10253,23.0,Female,Lapsed,Premium,15.0,3,1,Lawyer,Arthritis,Yes,High
+10467,39.0,female,Lapsed,Gold,31.0,0,0,Missing,Heart Disease,Former,Low
+10282,73.0,Male,Lapsed,Family,36.0,2,1,Manual Labor,Heart Disease,Former,None
+10376,40.0,Male,Lapsed,Premium,15.0,2,0,Lawyer,Hypertension,Yes,High
+10302,65.0,Female,Pending,Family,13.0,3,0,Engineer,Heart Disease,Yes,Moderate
+10029,44.0,Female,Pending,Basic,14.0,2,0,Doctor,Diabetes,No,None
+10466,62.0,Female,Pending,Family,32.0,0.0,None,Accountant,hypertension,Former,High 
+10386,27.0,Female,Lapsed,Gold,31.0,0,0,Office Worker,Arthritis,No,None
+10490,52.0,Male,Pending ,Premium,20.0,3.0,1,Scientist,Arthritis,Former,Moderate
+10403,-10.0,Female,Lapsed,Gold,40.0,,1,Engineer,Diabetes, YES,High
+10118,54.0,Female,Lapsed,Family,22.0,3,0,Manager,Diabetes,Former,High
+10093,31.0,Male,Active,Basic,32.0,1,0,Scientist,Arthritis,No,Low
+10246,69.0,Female,Lapsed,Premium,29.0,0,1,Retired,None,Yes,None
+10018,43.0,Male,Pending,Gold,21.0,3,0,Student,Hypertension,Former,High
+10497,40.0,Male,Active,Basic,27.0,1.0,0,Accountant,hypertension,Yes,low
+10205,77.0,Male,Pending,Family,27.0,1,0,Manager,Arthritis,Former,None
+10309,67.0,Female,Active,Gold,2.0,2,1,Doctor,Asthma,Former,Moderate
+10395,59.0,Male,Pending,Basic,0.0,0,1,Software Engineer,Hypertension,Yes,Low
+10150,45.0,Female,Active,Family,21.0,2,1,Scientist,Heart Disease,Yes,Moderate
+10483,75.0,Female,Lapsed,Basic,22.0,2.0,0,Office Worker,Diabetes,no,Low
+10009,51.0,Male,Lapsed,Family,32.0,1,1,Student,Heart Disease,Former,Low
+10392,66.0,Female,Active,Basic,24.0,0,0,Retired,None,No,Moderate
+10030,76.0,Female,Pending,Premium,26.0,1,0,Scientist,Arthritis,Former,High
+10318,79.0,Male,Lapsed,Premium,15.0,1,0,Manager,Asthma,No,Moderate
+10439,,Female,Lapsed,Family,-2.0,3.0,1,Software Engineer,Diabtes,Yes,None
+10007,64.0,Male,Active,Gold,5.0,1,0,Teacher,Heart Disease,Former,Low
+10492,58.0,Male,Pending,Basic,5.0,0.0,1,Student,Asthma,Yes,
+10400,41.0,Female,Lapsed,Premium,16.0,2,0,Teacher,Asthma,Former,Low
+10280,79.0,Male,Pending,Gold,21.0,1,0,Student,Diabetes,Yes,High
+10268,34.0,Male,Active,Premium,29.0,2,0,Nurse,Heart Disease,Former,Low
+10023,54.0,Female,Pending,Basic,4.0,0,1,Retired,Diabetes,No,High
+10220,80.0,Male,Lapsed,Gold,15.0,0,0,Nurse,Asthma,No,High
+10043,75.0,Female,Active,Family,21.0,2,0,Nurse,Asthma,Yes,Low
+10365,59.0,Female,Lapsed,Family,2.0,1,1,Sales Representative,Heart Disease,No,High
+10451,64.0,Female,Pending,,32.0,2.0,1,Engineer,Hypertension,Former,None
+10372,47.0,Female,Active,Gold,35.0,0,0,Teacher,Arthritis,No,None
+10035,75.0,Male,Active,Gold,5.0,3,1,Lawyer,Asthma,Yes,Moderate
+10385,75.0,Female,Active,Gold,10.0,1,1,Engineer,None,Yes,Low
+10248,37.0,Male,Pending,Family,19.0,2,1,Office Worker,Diabetes,Yes,Moderate
+10153,28.0,Male,Pending,Premium,17.0,3,1,Scientist,Heart Disease,Yes,Moderate
+10038,66.0,Male,Pending,Gold,12.0,1,0,Retired,Diabetes,Former,Low
+10435,38.0, Other,Lapsed,Basic,100.0,1.0,1,Nurse,Hypertension, YES,None
+10124,81.0,Female,Active,Gold,19.0,2,1,Doctor,Diabetes,Yes,Low
+10261,63.0,Male,Lapsed,Gold,0.0,1,1,Accountant,Hypertension,No,None
+10245,39.0,Male,Lapsed,Premium,19.0,3,0,Nurse,Asthma,Yes,High
+10455,49.0,Male,Active,Gold,-2.0,1,0,Manual Labor,None,Former,High 
+10191,48.0,Female,Active,Gold,15.0,3,1,Nurse,None,Former,Moderate
+10298,81.0,Male,Pending,Basic,39.0,1,0,Sales Representative,Heart Disease,No,Low
+10113,58.0,Male,Pending,Family,39.0,0,0,Engineer,Asthma,No,Moderate
+10033,53.0,Male,Pending,Gold,31.0,3,1,Lawyer,None,Former,Moderate
+10475,83.0,Male,Lapsed,Family,,0.0,0,Teacher,Arthritis,No,Low
+10252,81.0,Male,Active,Basic,17.0,1,1,Sales Representative,None,Yes,High
+10208,46.0,Female,Active,Gold,35.0,1,0,Manual Labor,Arthritis,Former,High
+10157,69.0,Male,Lapsed,Gold,1.0,2,0,Sales Representative,Hypertension,No,Moderate
+10172,54.0,Female,Lapsed,Basic,3.0,3,0,Engineer,None,Former,High
+10060,31.0,Male,Lapsed,Gold,38.0,3,1,Doctor,Arthritis,Yes,High
+10132,33.0,Female,Lapsed,Gold,12.0,3,1,Lawyer,Arthritis,Former,None
+10169,43.0,Female,Active,Family,27.0,1,1,Lawyer,Asthma,Yes,Low
+10196,44.0,Female,Active,Gold,20.0,0,0,Lawyer,None,Yes,Low
+10484,,M,Pending,Basic,23.0,2.0,0,Manual Labor,None,Yes,High
+10458,35.0,female,Pending,Family,6.0,1.0,Zero,Sales Representative,Heart Disease,No,High
+10063,54.0,Male,Active,Basic,40.0,2,1,Manager,Diabetes,Former,None
+10100,81.0,Male,Pending,Premium,23.0,0,1,Lawyer,Diabetes,Former,Moderate
+10363,46.0,Female,Lapsed,Family,6.0,1,1,Lawyer,Diabetes,Yes,None
+10281,27.0,Male,Pending,Premium,12.0,1,1,Engineer,None,No,High
+10491,,Male,Lapsed,Basic,35.0,0.0,1,Sales Representative,Arthritis,No ,Low
+10098,70.0,Male,Lapsed,Basic,28.0,2,0,Retired,Arthritis,Yes,Low
+10453,53.0,Female,Lapsed,Premium,5.0,0.0,1,Missing,Heart Disease,Former,High
+10216,58.0,Male,Active,Basic,36.0,0,1,Scientist,Asthma,Former,High
+10329,30.0,Female,Pending,Premium,36.0,3,0,Sales Representative,Asthma,Yes,Low
+10391,57.0,Male,Active,Basic,35.0,0,0,Student,Diabetes,No,Low
+10496,83.0,Female,Pending,Not Available,22.0,3.0,1,Scientist,Hypertension,No,High
+10360,30.0,Male,Pending,Premium,27.0,0,1,Software Engineer,Hypertension,Former,None
+10197,19.0,Female,Lapsed,Premium,16.0,0,0,Scientist,Arthritis,No,High
+10346,79.0,Male,Active,Gold,29.0,1,0,Retired,Asthma,Yes,High
+10380,73.0,Female,Pending,Family,36.0,2,1,Doctor,Asthma,No,Low
+10243,57.0,Male,Pending,Gold,26.0,3,0,Retired,None,No,None
+10226,73.0,Male,Lapsed,Family,30.0,3,1,Manual Labor,Asthma,Yes,High
+10367,68.0,Female,Active,Basic,36.0,2,1,Sales Representative,Heart Disease,Former,High
+10354,36.0,Female,Active,Gold,28.0,0,1,Teacher,Hypertension,Yes,Low
+10036,73.0,Female,Lapsed,Gold,32.0,1,1,Accountant,None,No,Moderate
+10222,78.0,Female,Active,Family,5.0,0,0,Accountant,Hypertension,Yes,Low
+10057,59.0,Male,Pending,Basic,26.0,1,0,Software Engineer,None,Yes,Low
+10114,60.0,Male,Active,Family,26.0,0,0,Accountant,Diabetes,No,Low
+10161,29.0,Male,Lapsed,Family,9.0,2,1,Sales Representative,Diabetes,Former,Moderate
+10304,57.0,Male,Pending,Family,24.0,2,0,Nurse,Arthritis,No,None
+10437,70.0,Male ,Lapsed,,39.0,1.0,NA,Manager,Diabetes,Former,High
+10413,64.0,Male,Pending,Gold,3.0,2.0,1,Scientist,none, YES,None
+10425,5.0,Male,Lapsed,Gold,26.0,1.0,0,Software Engineer,Heart Disease,Former,Low
+10343,75.0,Male,Active,Basic,0.0,1,0,Scientist,Heart Disease,No,Low
+10142,47.0,Male,Pending,Family,26.0,2,1,Manager,None,Former,Moderate
+10249,45.0,Male,Pending,Gold,23.0,0,0,Engineer,Heart Disease,No,High
+10352,56.0,Female,Lapsed,Premium,34.0,2,0,Retired,Arthritis,Former,High
+10171,18.0,Female,Active,Premium,29.0,1,1,Office Worker,Diabetes,Former,None
+10052,56.0,Male,Pending,Premium,3.0,0,1,Retired,Heart Disease,Former,None
+10359,28.0,Male,Pending,Premium,3.0,0,0,Lawyer,Arthritis,Former,None
+10276,73.0,Male,Lapsed,Gold,9.0,0,0,Sales Representative,Diabetes,Former,High
+10079,57.0,Male,Active,Premium,33.0,3,0,Accountant,Asthma,Former,None
+10445,47.0,Male,Pending,premium,39.0,1,0,Engineer,Arthritis,Former,Low
+10271,31.0,Female,Lapsed,Basic,30.0,2,0,Accountant,Heart Disease,Former,High
+10198,43.0,Male,Pending,Premium,3.0,3,1,Doctor,Heart Disease,Yes,Low
+10401,65.0,Female,Active,Basic,34.0,2.0,1,Lawyer,,No , moderate
+10324,57.0,Male,Pending,Premium,1.0,0,1,Lawyer,Hypertension,Former,Moderate
+10457,69.0,Female,active,Premium,12.0,2.0,1,,Heart Disease,No,None
+10225,28.0,Male,Pending,Premium,13.0,0,0,Accountant,Arthritis,Yes,Moderate
+10313,40.0,Female,Lapsed,Gold,11.0,3,0,Office Worker,None,Yes,Moderate
+10389,21.0,Male,Lapsed,Family,25.0,1,0,Retired,None,Yes,Moderate
+10012,18.0,Female,Lapsed,Family,14.0,1,1,Office Worker,Heart Disease,Yes,None
+10351,58.0,Female,Lapsed,Family,18.0,0,1,Retired,Arthritis,Yes,High
+10432,67.0,Female,Lapsed,Basic,19.0,0.0,0,Missing,Hypertension,Yes,Low
+10450,77.0,M,Active,Basic,-2.0,0.0,1,Retired,Hypertension,Former,none
+10279,41.0,Male,Active,Gold,12.0,1,1,Doctor,Hypertension,No,None
+10482,59.0,Male,Active,,-2.0,1.0,One,Scientist,None,Yes,Moderate
+10461,23.0,Female,Pending,Family,9.0,1.0,0,Scientist,Hypertension,missing,High
+10241,43.0,Female,Active,Premium,22.0,0,1,Scientist,Asthma,No,Moderate
+10393,83.0,Female,Pending,Gold,30.0,3,1,Engineer,Arthritis,Yes,Low
+10340,38.0,Male,Active,Family,27.0,3,1,Office Worker,Heart Disease,No,None
+10051,21.0,Female,Lapsed,Family,36.0,3,0,Retired,Diabetes,Former,High
+10423,73.0,Male,Active,Premium,3.0,1.0,0,retired,hypertension,Yes,Moderate
+10331,18.0,Female,Pending,Premium,25.0,3,0,Manual Labor,Heart Disease,Former,Moderate
+10099,61.0,Male,Lapsed,Basic,40.0,2,1,Student,Diabetes,Former,None
+10481,53.0,Female,Lapsed,Premium,-2.0,2.0,1,Sales Representative,Heart Disease,Yes,NA
+10200,30.0,Male,Lapsed,Basic,38.0,1,0,Accountant,Asthma,Former,None
+10112,31.0,Female,Lapsed,Gold,38.0,2,0,Teacher,None,No,High
+10154,28.0,Female,Active,Basic,9.0,1,1,Manager,Asthma,Former,Moderate
+10143,42.0,Male,Active,Basic,22.0,1,1,Engineer,Diabetes,Former,None
+10460,24.0,Male,Pending,Gold,14.0,,0,Office Worker,Diabetes,No,Low
+10230,61.0,Male,Pending,Gold,9.0,2,1,Sales Representative,Hypertension,No,None
+10173,70.0,Female,Lapsed,Premium,9.0,3,1,Sales Representative,Diabetes,Yes,High
+10050,41.0,Female,Lapsed,Premium,20.0,3,1,Lawyer,Diabetes,Yes,Low
+10233,76.0,Male,Lapsed,Family,19.0,3,0,Manual Labor,Diabetes,Former,None
+10419,,Female,Lapsed,Basic ,20.0,1.0,1,Software Engineer,Hypertension,missing,High
+10024,54.0,Female,Lapsed,Family,15.0,0,0,Sales Representative,Heart Disease,Former,High
+10299,61.0,Female,Pending,Basic,17.0,2,1,Doctor,Asthma,Former,None
+10037,72.0,Female,Lapsed,Family,38.0,0,1,Lawyer,Arthritis,No,Low
+10244,79.0,Male,Pending,Premium,19.0,3,1,Sales Representative,Heart Disease,No,Moderate
+10308,83.0,Female,Active,Gold,30.0,0,1,Sales Representative,Heart Disease,No,None
+10337,40.0,Female,Lapsed,Gold,27.0,1,1,Accountant,Asthma,No,High
+10010,40.0,Female,Active,Basic,0.0,0,0,Scientist,Arthritis,Former,Low
+10412,150.0,Male,Active,Basic,36.0,1.0,1,Software Engineer,Asthma,Yes,None
+10257,20.0,Female,Pending,Premium,18.0,1,1,Office Worker,Arthritis,Former,Moderate
+10048,47.0,Male,Active,Premium,1.0,0,1,Retired,Diabetes,No,High
+10463,43.0,Male,Lapsed,Gold,-2.0,3.0,0,Scientist,Arthritis,Former,Low
+10054,35.0,Female,Active,Gold,30.0,2,1,Retired,Heart Disease,Former,High
+10231,45.0,Female,Pending,Premium,25.0,2,1,Office Worker,Asthma,Former,None
+10190,43.0,Male,Pending,Gold,40.0,2,0,Nurse,Diabetes,No,Moderate
+10442,29.0,Female,Lapsed,Premium,19.0,2.0,0,,None,No,Moderate
+10262,40.0,Female,Active,Family,9.0,1,1,Office Worker,Asthma,Former,None
+10206,18.0,Male,Active,Family,9.0,3,1,Retired,Heart Disease,Former,Low
+10284,53.0,Female,Lapsed,Gold,37.0,1,0,Doctor,None,No,Low
+10416,35.0,Male,Pending ,Premium,8.0,50,1,Office Worker,None,No,Low
+10434,84.0,Male,Pending,Family,100.0,0.0,1,Nurse,Heart Disease,Former,High
+10487,64.0,Male,Active,,16.0,1.0,None,Sales Representative,Heart Disease,No,High 
+10323,22.0,Male,Active,Family,11.0,2,0,Doctor,Diabetes,Former,None
+10005,48.0,Female,Lapsed,Basic,27.0,1,1,Student,Arthritis,Yes,Moderate
+10294,75.0,Male,Lapsed,Basic,32.0,1,0,Manual Labor,None,Former,Moderate
+10500,54.0,Male,Pending,Basic,8.0,missing,1,Retired,Arthritis,Yes,Moderate
+10404,42.0,Female,Lapsed,Premium,27.0,1,1, office worker,Arthritis,Yes,Moderate
+10424,61.0,Female,Lapsed,Family,35.0,0.0,1,,None, YES,High
+10254,78.0,Female,Lapsed,Basic,20.0,1,1,Accountant,Diabetes,Yes,None
+10300,51.0,Female,Pending,Premium,38.0,2,1,Scientist,Diabetes,No,Moderate
+10414,83.0,Female,Pending,Family,25.0,1.0,One,Nurse,Arthritis,Yes,High
+10374,65.0,Male,Active,Gold,15.0,0,1,Scientist,Diabetes,No,Low
+10315,35.0,Male,Lapsed,Gold,15.0,3,0,Teacher,Asthma,Former,Moderate
+10408,22.0,Female,Active,Family,-2.0,0.0,0,Scientist,Diabetes,No,High
+10397,47.0,Female,Lapsed,Premium,19.0,0,0,Lawyer,None,Former,Moderate
+10379,64.0,Male,Pending,Family,10.0,0,1,Engineer,Arthritis,Former,Low
+10239,61.0,Female,Active,Basic,21.0,0,0,Lawyer,None,Yes,Low
+10006,42.0,Male,Active,Family,0.0,2,0,Accountant,Asthma,Former,Moderate
+10293,36.0,Female,Pending,Family,28.0,3,1,Student,Arthritis,Yes,Low
+10008,56.0,Male,Lapsed,Basic,36.0,2,0,Doctor,Hypertension,No,High
+10001,21.0,Female,Active,Family,32.0,2,1,Sales Representative,Hypertension,No,High
+10259,60.0,Male,Active,Premium,37.0,2,0,Doctor,Arthritis,Yes,High
+10108,29.0,Male,Pending,Basic,36.0,1,1,Manager,None,Yes,Low
+10134,71.0,Female,Pending,Premium,13.0,3,0,Sales Representative,Hypertension,No,Low
+10193,31.0,Male,Pending,Basic,31.0,3,1,Sales Representative,Hypertension,Former,None
+10209,78.0,Female,Lapsed,Premium,22.0,0,1,Office Worker,Diabetes,Former,None
+10073,62.0,Male,Active,Gold,18.0,1,0,Sales Representative,None,No,Moderate
+10138,62.0,Female,Pending,Gold,3.0,0,1,Manual Labor,Asthma,No,High
+10307,46.0,Male,Pending,Gold,3.0,1,1,Engineer,Arthritis,No,None
+10290,53.0,Male,Active,Family,23.0,0,0,Lawyer,Diabetes,Yes,None
+10146,80.0,Male,Lapsed,Basic,1.0,1,1,Doctor,None,Yes,Low
+10156,53.0,Female,Active,Gold,31.0,0,0,Manager,Arthritis,Former,High
+10199,75.0,Male,Active,Gold,5.0,3,1,Sales Representative,Hypertension,Yes,Moderate
+10184,39.0,Female,Pending,Basic,30.0,0,1,Lawyer,None,No,High
+10433,72.0,Female,NA,Gold,,0,1,Retired,None,No,High
+10181,21.0,Female,Lapsed,Family,27.0,2,1,Manager,Hypertension,Former,High
+10044,84.0,Male,Lapsed,Family,3.0,3,0,Accountant,Heart Disease,No,Moderate
+10377,69.0,Male,Active,Family,29.0,2,1,Sales Representative,Arthritis,Former,High
+10459,29.0,Male,Active,premium,16.0,2.0,1,Engineer,Asthma,Yes,Moderate
+10135,55.0,Female,Pending,Family,34.0,1,0,Scientist,Arthritis,Yes,None
+10119,18.0,Male,Active,Family,14.0,1,1,Teacher,Diabetes,No,None
+10489,73.0,Male,Pending,Basic,36.0,1.0,1, office worker,hypertension,yes,Low
+10265,52.0,Female,Pending,Premium,40.0,0,1,Nurse,Diabetes,Former,High
+10166,84.0,Male,Active,Basic,40.0,0,1,Software Engineer,None,Former,None
+10065,18.0,Female,Pending,Premium,25.0,2,1,Sales Representative,Asthma,Yes,High
+10056,71.0,Male,Pending,Basic,32.0,3,0,Software Engineer,None,Yes,None
+10116,29.0,Male,Pending,Premium,40.0,0,1,Engineer,Diabetes,Former,High
+10449,27.0,Male,Lapsed,Premium,34.0,0.0,0,Sales Representative,Hypertension,No,low
+10180,75.0,Female,Active,Family,31.0,3,0,Scientist,Hypertension,No,Low
+10465,68.0,Female,NA,Basic,36.0,1.0,0,Accountant,Asthma,No,High 
+10183,29.0,Female,Pending,Premium,21.0,3,1,Software Engineer,Diabetes,Yes,High
+10469,150.0,Male,Lapsed,Gold,15.0,0.0,0,Sales Representative,Heart Disase,Former,Moderate
+10049,22.0,Female,Active,Gold,26.0,2,0,Doctor,Arthritis,Yes,Moderate
+10140,20.0,Female,Pending,Gold,3.0,1,1,Office Worker,Hypertension,Former,Low
+10147,82.0,Male,Active,Family,6.0,2,1,Lawyer,Asthma,No,High
+10285,49.0,Male,Pending,Family,4.0,2,1,Software Engineer,Arthritis,No,High
+10498,24.0,Female,Lapsed,Gold,3.0,0.0,0,Retired,Hypertension,No,Moderate
+10278,58.0,Male,Pending,Premium,11.0,2,1,Doctor,Diabetes,Yes,Low
+10020,41.0,Female,Lapsed,Gold,22.0,2,0,Lawyer,Heart Disease,Yes,None
+10025,54.0,Male,Pending,Premium,12.0,0,0,Office Worker,Asthma,Former,Moderate
+10473,150.0,Male,Lapsed,Family,11.0,50,0,Accountant,Asthma ,No,None
+10328,50.0,Female,Pending,Basic,12.0,0,1,Scientist,Heart Disease,Former,None
+10325,59.0,Male,Lapsed,Basic,27.0,2,0,Software Engineer,Arthritis,Former,Moderate
+10269,44.0,Male,Lapsed,Family,15.0,3,0,Accountant,Arthritis,Former,Low
+10082,24.0,Male,Active,Gold,26.0,0,1,Manager,Heart Disease,Yes,Moderate
+10462,76.0,Male, lapsed,Premium,25.0,1.0,None,Doctor ,Asthma,Yes,Low
+10394,26.0,Female,Active,Family,39.0,2,1,Engineer,Heart Disease,Yes,Low
+10368,20.0,Female,Lapsed,Basic,36.0,1,0,Software Engineer,Hypertension,No,None
+10179,63.0,Female,Active,Family,7.0,2,0,Engineer,Diabetes,Former,Low
+10273,52.0,Male,Lapsed,Premium,21.0,1,1,Retired,Hypertension,Former,High
+10229,47.0,Male,Lapsed,Premium,3.0,1,0,Scientist,None,Former,Moderate
+10410,5.0,Male ,Pending,Gold,21.0,0.0,0,Nurse,Diabetes,No ,None
+10133,53.0,Female,Active,Gold,31.0,1,0,Accountant,None,Former,None
+10069,65.0,Female,Lapsed,Gold,5.0,1,1,Student,Hypertension,No,Low
+10362,25.0,Female,Active,Basic,7.0,0,1,Manager,Hypertension,Former,Moderate
+10058,77.0,Female,Lapsed,Family,22.0,3,1,Office Worker,Heart Disease,Yes,Low
+10270,28.0,Male,Active,Family,20.0,3,1,Scientist,Hypertension,Yes,None
+10032,38.0,Female,Active,Family,11.0,2,1,Manual Labor,Diabetes,No,High
+10077,37.0,Male,Lapsed,Family,11.0,1,1,Teacher,Heart Disease,No,High
+10256,37.0,Male,Lapsed,Family,13.0,1,0,Sales Representative,Heart Disease,Former,None
+10046,65.0,Female,Pending,Premium,22.0,3,1,Student,Diabetes,No,Moderate
+10028,23.0,Female,Lapsed,Gold,14.0,3,1,Software Engineer,Diabetes,Yes,Low
+10109,68.0,Female,Active,Family,38.0,1,1,Scientist,Diabetes,No,Low
+10017,69.0,Female,Active,Family,7.0,3,1,Sales Representative,Asthma,No,High
+10137,58.0,Male,Lapsed,Family,9.0,1,0,Office Worker,Heart Disease,Former,Low
+10217,74.0,Male,Active,Basic,34.0,3,0,Scientist,None,Yes,High
+10470,78.0,Female,Pending,,19.0,Two,0,retired,Asthma,Former,Moderate
+10330,53.0,Male,Lapsed,Basic,2.0,2,1,Retired,Heart Disease,Former,High
+10267,30.0,Female,Lapsed,Family,36.0,1,1,Retired,Heart Disease,No,High
