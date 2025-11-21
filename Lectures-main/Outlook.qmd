@@ -1,0 +1,10 @@
+# Outlook 
+ 
+
+### Data scraping from the Web
+
+DataCamp
+
+*  Course: [Web Scraping with Python](https://app.datacamp.com/learn/courses/web-scraping-with-python)  
+*  Tutorial: [Web Scraping using Python and Beautiful Soup](https://www.datacamp.com/tutorial/web-scraping-using-python)
+*  Tutorial: [Web Scraping & NLP in Python](https://www.datacamp.com/tutorial/web-scraping-python-nlp)
