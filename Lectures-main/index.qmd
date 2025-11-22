@@ -1,5 +1,0 @@
-# Preface {.unnumbered}
-
-On this html page you will find a collection of the lectures from Digital Literacy I: Coding A SoSe-2023.
-
-The labs can be found [here](https://codeandstats.github.io/Introduction_Python_Labs/)
